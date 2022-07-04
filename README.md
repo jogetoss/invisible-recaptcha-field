@@ -1,6 +1,6 @@
 # Description
 
-Provides Google reCAPTCHA validation as Joget form element.
+Provides Google reCAPTCHA validation as Joget form element. See [documentation](https://dev.joget.org/community/display/marketplace/Invisible+reCAPTCHA+Form+Element+Plugin)
 
 Credit to https://github.com/cchunzhe for the plugin.
 
