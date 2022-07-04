@@ -1,6 +1,8 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+Provides Google reCAPTCHA validation as Joget form element.
+
+Credit to https://github.com/cchunzhe for the plugin.
 
 # Getting Help
 
