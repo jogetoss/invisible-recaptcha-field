@@ -1,0 +1,48 @@
+[
+    {
+        "title": "@@org.joget.marketplace.InvisibleRecaptchaField.config.title@@",
+        "properties": [
+            {
+                "name": "id",
+                "label": "@@form.textfield.id@@",
+                "type": "textfield",
+                "required": "true",
+                "regex_validation": "^[a-zA-Z0-9_]+$",
+                "validation_message": "@@form.textfield.invalidId@@"
+            },
+            {
+                "name": "siteKey",
+                "label": "@@org.joget.marketplace.InvisibleRecaptchaField.config.siteKey.label@@",
+                "description": "@@org.joget.marketplace.InvisibleRecaptchaField.config.siteKey.desc@@",
+                "type": "textfield",
+                "required": "true"
+            },
+            {
+                "name": "secretKey",
+                "label": "@@org.joget.marketplace.InvisibleRecaptchaField.config.secretKey.label@@",
+                "description": "@@org.joget.marketplace.InvisibleRecaptchaField.config.secretKey.desc@@",
+                "type": "textfield",
+                "required": "true"
+            },
+            {
+                "name": "customError",
+                "label": "@@org.joget.marketplace.InvisibleRecaptchaField.config.customError.label@@",
+                "description": "@@org.joget.marketplace.InvisibleRecaptchaField.config.customError.desc@@",
+                "type": "textfield"
+            },
+            {
+                "name": "debugMode",
+                "label": "@@org.joget.marketplace.InvisibleRecaptchaField.config.debugMode.label@@",
+                "description": "@@org.joget.marketplace.InvisibleRecaptchaField.config.debugMode.desc@@",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "value": "enabled",
+                        "label": "Enabled"
+                    }
+                ]
+            }
+        ],
+        "helplink": "https://developers.google.com/recaptcha"
+    }
+]
